@@ -7,7 +7,7 @@ image:
   # -- override pullPolicy for thumbor image
   pullPolicy: IfNotPresent
   # -- Overrides the image tag whose default is the chart appVersion.
-  tag: "7-py-3.10"
+  tag: "7.7.5-py-3.12"
 
 # -- if the used image is not public
 imagePullSecrets: []
