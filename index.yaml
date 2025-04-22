@@ -2,6 +2,31 @@ apiVersion: v1
 entries:
   thumbor:
   - apiVersion: v2
+    appVersion: 7.7.5
+    created: "2025-04-22T09:59:38.586469805Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      version: 2.x.x
+    - condition: remotecv.installRedis
+      name: redis
+      repository: https://charts.bitnami.com/bitnami
+      version: 17.3.x
+    description: Thumbor(https://github.com/thumbor/thumbor) Helm chart.
+    digest: a6b688205aabb660640e7b8d6233891280af84e6d3ef0f604f5c6c4ad85b4d26
+    home: http://www.thumbor.org/
+    maintainers:
+    - email: 101073+guilhermef@users.noreply.github.com
+      name: Guilherme Souza
+      url: https://github.com/guilhermef
+    name: thumbor
+    sources:
+    - https://github.com/thumbor/helm/tree/main/charts/thumbor
+    type: application
+    urls:
+    - https://github.com/Spirit-act/thumbor-helm/releases/download/thumbor-1.0.5/thumbor-1.0.5.tgz
+    version: 1.0.5
+  - apiVersion: v2
     appVersion: 7.1.1
     created: "2024-10-29T18:00:08.803219184Z"
     dependencies:
@@ -126,4 +151,4 @@ entries:
     urls:
     - https://github.com/Spirit-act/thumbor-helm/releases/download/thumbor-1.0.0/thumbor-1.0.0.tgz
     version: 1.0.0
-generated: "2024-10-29T18:00:08.8032388Z"
+generated: "2025-04-22T09:59:38.586499089Z"
